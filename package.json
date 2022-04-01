@@ -1,0 +1,44 @@
+{
+  "name": "laNacion",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config config/webpack.prod.js",
+    "start": "webpack serve --config config/webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilio4punto0/LaNacion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilio4punto0/LaNacion/issues"
+  },
+  "homepage": "https://github.com/emilio4punto0/LaNacion#readme",
+  "dependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "core-js": "^3.21.1",
+    "css-loader": "^6.7.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "webpack-dev-server": "^4.7.4",
+    "webpack-merge": "^5.8.0"
+  },
+  "browserslist": "> 0.25%, not dead, not ie 11",
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.4",
+    "babel-loader": "^8.2.4",
+    "html-webpack-plugin": "^5.5.0",
+    "react-refresh": "^0.12.0",
+    "react-refresh-webpack-plugin": "^0.1.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.71.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
