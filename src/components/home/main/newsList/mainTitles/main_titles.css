@@ -1,0 +1,15 @@
+.main_titles, .main_titles a{
+    margin: 1rem;
+    cursor: pointer;
+    text-decoration:none;
+
+}
+.main_titles:not(:last-child) ::after {
+
+    content: '·';
+    display: inline-block;
+    position: absolute;
+    color: #006998;
+    font-size: 2rem;
+    line-height: 15px;
+}

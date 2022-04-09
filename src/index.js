@@ -1,5 +1,7 @@
-import ReactDOM from "react-dom";
+import { createRoot } from 'react-dom/client';
 import Home from "./components/home/Home.jsx"
 
 
-ReactDOM.render(<Home />, document.getElementById("home"))
+const container = document.getElementById('home');
+const root = createRoot(container);
+root.render(<Home tab="home" />);
